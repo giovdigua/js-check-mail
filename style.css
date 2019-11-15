@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: lightgrey;
+    display: flex;
+    height: 100vh;
+
+}
+
+#rockstarContainer{
+    display: none;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+
+
+
+}
+#rockstarContainer.show{
+    display: block;
+}
+
+p{
+
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+#rockstar{
+    color: red;
+}
+
+img{
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
